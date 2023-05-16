@@ -3,6 +3,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 I have attached screen shots for easy understanding.
+## For Desktop
+<img src="https://github.com/altruisticdream/chronicle-clone-assignment/assets/63090622/6dacd72b-7846-474c-899a-2650fd54cea0" width="1000" height="350">
+<img src="https://github.com/altruisticdream/chronicle-clone-assignment/assets/63090622/e181f402-e92b-4e49-b1a7-6fdcce6e8756" width="1000" height="350">
+## For Mobile Phone
 <img src="https://github.com/altruisticdream/chronicle-clone-assignment/assets/63090622/9d89840f-7230-4c5b-bb69-e779727031a4" width="300" height="500">
 <img src="https://github.com/altruisticdream/chronicle-clone-assignment/assets/63090622/f9ae6c84-df94-4385-bff0-02a240fdd26b" width="300" height="500">
 
