@@ -1,5 +1,6 @@
 # chronicle-clone-assignment
 
+Live Link:https://remarkable-cactus-9dc818.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 I have attached screen shots for easy understanding.
