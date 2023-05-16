@@ -1,9 +1,9 @@
-# chronicle-clone-assignment![Screenshot_20230517-003448](https://github.com/altruisticdream/chronicle-clone-assignment/assets/63090622/9d89840f-7230-4c5b-bb69-e779727031a4)
+# chronicle-clone-assignment
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 I have attached screen shots for easy understanding.
-<img src="https://github.com/altruisticdream/chronicle-clone-assignment/assets/63090622/9d89840f-7230-4c5b-bb69-e779727031a4" width="500" height="700">
+<img src="https://github.com/altruisticdream/chronicle-clone-assignment/assets/63090622/9d89840f-7230-4c5b-bb69-e779727031a4" width="300" height="500">
 
 ## Available Scripts
 
