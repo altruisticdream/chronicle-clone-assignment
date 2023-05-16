@@ -1,0 +1,54 @@
+.section1{
+    height: 200vh;
+    
+}
+.wrap{
+    margin-top:1vh ;
+    position: sticky;
+    top:20vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textcontain{
+    color:#202020;
+    display: flex;
+    flex-wrap:  wrap;
+    gap:10px;
+    width:80%;  
+}
+
+.spantxt{
+    font-size:22px;
+    font-weight: 800;
+}
+
+@media (min-width:641px){
+    
+    .spantxt{
+        font-size:32px;
+        font-weight: 800;
+    }
+
+    .textcontain{
+        width:70%;
+    }
+}
+
+
+@media (min-width:1025px) {
+    .spantxt{
+        font-size:44px;
+        font-weight: 800;
+    }
+
+    .textcontain{
+        width:50%;
+        margin-left:18vw;
+    }
+    .wrap{
+        margin-top:5vh ;
+        justify-content: start;
+    }
+}

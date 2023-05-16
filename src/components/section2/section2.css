@@ -1,0 +1,327 @@
+.section2{
+    margin-top: 100px;
+}
+
+.wraps2{
+    position: sticky;
+    top:20vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2Container{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.s2text{
+    padding: 20px;
+}
+
+.s2text > div {
+    
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+.s2text >div> h2 {
+    
+    font-size: 12px;
+    color:rgb(165, 148, 253);
+    font-weight: 400;
+}
+
+.s2text>h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.s2text>p{
+    display: none;
+}
+
+
+
+.imgs2{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap:40px;
+
+}
+
+.s2images{    
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.s2imageswarp{
+    display: flex;
+    transition: transform 0.5s ease-in;
+}
+
+
+.imgcontainer{
+    background-color:#101010;
+    border: 3px solid #101010;
+    border-radius: 20px;
+   
+}   
+.imgcontainer>div{
+    width:90vw;
+}
+
+.imgcontainer>div>img{
+    width:100%;
+    height:100%;
+}
+
+.imgcontainer>p{
+    padding: 10px 20px 10px;
+    text-align: center;
+    font-size: 9px;
+    color:#9A9A9A;
+    font-weight: 600;
+}
+.imgcontainer>h2{
+    padding: 50px 80px 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+
+
+.s2scrollindicator{
+    display: none;
+    
+}
+
+
+.s2indicatorhollow{
+    width:10%;
+    height:60%;
+    background-color: #232323;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.s2indicator{
+    background-color: #A594FD;
+    border-radius: 10px;
+}
+
+.s2scrollindicator>h2{
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+
+.slidebuttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.but{
+    width:45%;
+    padding:10px 0 ;
+    border-radius: 20px;
+    border: 0;
+}
+
+.back>svg{
+    transform: scaleX(-1);
+}
+
+.active{
+    background-color: aliceblue;
+}
+
+.disabled{
+    background-color: #101010;
+}
+
+
+/* For bigger screens */
+@media (min-width:641px) {
+    .section2{
+        margin-top: 300px;
+        height:400vh;
+    }
+
+    .section2Container{
+        flex-direction: row; 
+        gap:30px;
+    }
+
+    .s2text{
+        width:40%;
+        padding: 10px;
+    }
+
+    .s2text>h2{
+        margin-top: 30px;
+        font-size: 35px;
+    }
+    
+    .s2text>p{
+        display: block;
+        margin-top: 30px;
+        font-size: 8px;
+    }
+
+    .imgs2{
+        width:60%;
+        height:50vh;
+        flex-direction:row ;
+        gap:20px;
+    }
+
+    .s2images{  
+        height:100%;  
+    }
+
+    .s2imageswarp{
+        display: block;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .imgcontainer{
+        position:absolute ;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right:0;
+    }
+    .imgcontainer>div{
+        width:100%;
+        height:40%;
+    }
+
+
+    .imgcontainer>p{
+        padding: 20px 30px 20px ;
+        font-size: 10px;
+    }
+
+    .imgcontainer>h2{
+        padding: 50px 30px 10px;
+        font-size: 25px;
+    }
+
+    .s2scrollindicator{
+        width:8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:5px;
+    }
+    .seconds2img{
+        opacity:0;
+        scale: 0.3;
+        z-index: 2;
+    }
+    
+    .thirds2img{
+        opacity:0;
+        scale: 0.3;
+        z-index:3;
+    }
+
+    .slidebuttons{
+        display: none;
+    }
+}
+
+
+@media (min-width:961px) {
+
+    .section2Container{
+        width:80%; 
+    }
+
+    .s2text{
+        padding: 50px;
+    }
+
+    .s2text >div> h2 {
+        font-size: 14px;
+    }
+
+    .s2text>h2{
+        font-size: 45px;
+    }
+    
+    .s2text>p{
+        font-size: 12px;
+    }
+
+    .imgs2{
+        width:50%;
+    }
+
+
+    .imgcontainer>p{
+        padding: 20px 50px 20px ;
+        font-size: 12px;
+    }
+    .imgcontainer>h2{
+        padding: 50px 50px 0;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1025px) {
+    .section2Container{
+        width:70%; 
+    } 
+    .s2text{
+        width:50%;
+        padding: 50px;
+    }
+
+    .s2text >div> h2 { 
+        font-size: 16px;
+    }
+
+    .s2text>h2{
+        font-size: 65px;
+    }
+    
+    .s2text>p{
+        font-size: 14px;
+    }
+
+    .imgs2{
+        width:40%;
+        height:55vh;
+        gap:40px;
+    }
+
+    .s2images{  
+        height:100%;  
+    }
+
+    .imgcontainer>div{
+        height:50%;
+    }
+
+    .imgcontainer>p{
+        font-size: 14px;
+    }
+    .imgcontainer>h2{
+        padding: 50px 30px 0px;
+    }
+}

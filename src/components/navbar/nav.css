@@ -1,0 +1,39 @@
+.nav{
+    margin:0 20px ;
+    z-index: 10;
+    position: fixed;
+    top:20px;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joinBeta{
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 800;
+    padding: 8px 15px;
+}
+
+
+@media (min-width:641px){
+    
+    .joinBeta{
+        font-size:0.9rem;
+        font-weight: 800;
+    }
+}
+
+
+@media (min-width:1025px) {
+    .joinBeta{
+        font-size:1rem;
+        font-weight: 800;
+    }
+}
